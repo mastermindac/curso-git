@@ -71,3 +71,9 @@ const affiliateRedirect = () => {
 // cambios videos 1
 // cambios videos 2
 // cambios videos 3
+
+// Video Pull request
+const printHello = () => {
+  console.log('Hello people from Mastermind');
+}
+printHello();
