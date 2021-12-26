@@ -52,6 +52,7 @@ const getBlogContent = async () => {
   }
 }
 
+//Video pull request
 getBlogContent();
 
 const loadAdds = () => {
