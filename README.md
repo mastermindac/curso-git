@@ -1,5 +1,7 @@
 # Curso Git
 
-Curso Git Mastermind
+## Curso Git Mastermind
 
-Version 1
+### Version 1
+
+**Excelente curso Antonio, saludos de Chile
