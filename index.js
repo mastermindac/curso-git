@@ -62,6 +62,11 @@ const affiliateRedirect = () => {
   // resolver el bug
 }
 
+
+const somefunc = () => {
+  //do some things
+}
+
 // test commit
 
 // cambio 1
