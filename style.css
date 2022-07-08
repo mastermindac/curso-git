@@ -41,3 +41,8 @@ h1 {
 .post span {
     color: #61afef;
 }
+body h3 {
+    background-color: #61afef;
+    color: #1d2127;
+    border-radius: 5px;
+}
