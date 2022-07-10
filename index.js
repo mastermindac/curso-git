@@ -58,16 +58,4 @@ const loadAdds = () => {
   console.log('Adds loaded');
 }
 
-const affiliateRedirect = () => {
-  // resolver el bug
-}
-
-// test commit
-
-// cambio 1
-// cambio 2
-// cambio 3
-
-// cambios videos 1
-// cambios videos 2
-// cambios videos 3
+// Gracias por la clase rei, sos un crack
