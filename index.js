@@ -59,14 +59,8 @@ const loadAdds = () => {
 }
 
 const affiliateRedirect = () => {
-  // resolver el bug
+  // Pull request (Fork test)
 }
-
-// test commit
-
-// cambio 1
-// cambio 2
-// cambio 3
 
 // cambios videos 1
 // cambios videos 2
