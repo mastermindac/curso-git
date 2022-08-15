@@ -41,3 +41,28 @@ h1 {
 .post span {
     color: #61afef;
 }
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 12px;
+}
+.add span{
+    margin-right: 10px;
+    color: #98c379;
+    font-weight: bold;
+}
+.add button{
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    background-color: #61afef;
+    height: 40px;
+    width: 40%;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
