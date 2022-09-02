@@ -62,12 +62,7 @@ const affiliateRedirect = () => {
   // resolver el bug
 }
 
-// test commit
-
-// cambio 1
-// cambio 2
-// cambio 3
-
-// cambios videos 1
-// cambios videos 2
-// cambios videos 3
+/*
+Que onda reeyyy, no se si en algun momento vas a ver esto pero me estan sirviendo muchisimo tus videos
+vengo aprendiendo un monton. Sos crack
+*/
