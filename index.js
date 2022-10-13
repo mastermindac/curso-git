@@ -1,5 +1,5 @@
 const url = "https://jsonplaceholder.typicode.com";
-//Video pull request
+//Video pull request :)
 
 const getUser = async (id) => {
   const res = await fetch(`${url}/users?id=${id}`);
