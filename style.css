@@ -29,10 +29,24 @@ h1 {
 
 .post {
     background-color: #282c34;
-    margin-bottom: 15px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    transition: all .2s;
+}
+
+.post2 {
+    background-color: #282c34;
     padding: 5px 20px 5px 20px;
     border-radius: 12px;
 }
+
+.post:hover{
+    background-color: #353b46;
+    transform: scale(1.005);
+
+}
+
 
 .post h4 {
     color: #98c379;

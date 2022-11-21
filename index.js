@@ -8,7 +8,7 @@ const getUser = async (id) => {
 }
 
 const getPosts = async (user) => {
-  const res = await fetch(`${url}/posts?userId=${user.id}&_limit=3`)
+  const res = await fetch(`${url}/posts?userId=${user.id}&_limit=10`)
   const posts = await res.json();
 
   return posts;
@@ -26,6 +26,8 @@ const getCommentsForEachPost = async (posts) => {
 
 const renderHtml = (user, posts) => {
   const content = document.getElementById('content');
+  const com = document.getElementById('comments');
+
   content.innerHTML += `<h3>Posts del usuario ${user.email}</h3>`;
   
   posts.forEach(post => {
@@ -34,7 +36,9 @@ const renderHtml = (user, posts) => {
       <h4>${post.title}</h4>
       <p>${post.body}</p>
       <br>
-      ${post.comments.map(c => `<p><span>${c.email}:</span>${c.body}</p>`).join('')}
+      <div class="post2">
+        ${post.comments.map(c => `<p><span>${c.email}:</span>${c.body}</p>`).join('')}
+      </div>
     </div>
     `;
   })
