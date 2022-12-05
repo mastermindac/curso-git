@@ -16,8 +16,9 @@ const getPosts = async (user) => {
 
 const getCommentsForEachPost = async (posts) => {
   const res = await Promise.all(posts.map(post => 
-    fetch(`${url}/comments?postId=${post.id}&_limit=4`)  
-  ))
+    fetch(`${url}/comments?postId=${post.id}&_limit=5`)
+  ));
+  console.log(res); 
   const postComments = await Promise.all(res.map(r => r.json()));
   
   postComments.forEach((comments, i) => posts[i].comments = comments);
@@ -52,3 +53,21 @@ const getBlogContent = async () => {
 }
 
 getBlogContent();
+
+const loadAdds = () => {
+  console.log('Adds loaded');
+}
+
+const affiliateRedirect = () => {
+  // resolver el bug
+}
+
+// test commit
+
+// cambio 1
+// cambio 2
+// cambio 3
+
+// cambios videos 1
+// cambios videos 2
+// cambios videos 3
