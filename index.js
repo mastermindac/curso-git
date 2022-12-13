@@ -18,6 +18,7 @@ const getCommentsForEachPost = async (posts) => {
   const res = await Promise.all(posts.map(post => 
     fetch(`${url}/comments?postId=${post.id}&_limit=4`)
   ));
+
   console.log(res); 
   const postComments = await Promise.all(res.map(r => r.json()));
   
@@ -66,7 +67,7 @@ const affiliateRedirect = () => {
 
 // cambio 1
 // cambio 2
-// cambio 3
+// cambio 3, 4, 5, 6
 
 // cambios videos 1
 // cambios videos 2
