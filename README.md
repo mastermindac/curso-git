@@ -3,6 +3,7 @@
 Curso Git Mastermind
 
 Version 1
------------
-|Tablita  |
------------
+
+|Tablita  | se | ve | bien? |
+|---------|:--:|:--:|:------|
+|Si       | No |tal | vez   |
