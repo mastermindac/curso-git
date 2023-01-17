@@ -52,6 +52,21 @@ const getBlogContent = async () => {
   }
 }
 
+
+}
+
+const getBlogContent = async () => {
+  try {
+    const user = await getUser(1);
+    const posts = await getPosts(user);
+    await getCommentsForEachPost(posts);
+
+    renderHtml(user, posts);
+  } catch (err) {
+    console.log(err);
+  }
+}
+
 getBlogContent();
 
 const loadAdds = () => {
