@@ -2,4 +2,4 @@
 
 Curso Git Mastermind
 
-Version 1
+Version 2
