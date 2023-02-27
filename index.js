@@ -75,3 +75,7 @@ const affiliateRedirect = () => {
 // cambio 1
 // cambio 2
 // cambio 3
+
+const affiliateRedirect =() => {
+  // Resolver el bug
+}
