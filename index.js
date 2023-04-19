@@ -62,12 +62,12 @@ const affiliateRedirect = () => {
   // resolver el bug
 }
 
-// test commit
-
-// cambio 1
-// cambio 2
-// cambio 3
-
-// cambios videos 1
-// cambios videos 2
-// cambios videos 3
+const maxValue = (nums) => {
+    let maxNum = nums[0];
+    for (let num of nums){
+      if (maxNum < num){
+        maxNum = num;
+      }
+    }
+    return maxNum;
+};
