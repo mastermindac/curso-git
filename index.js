@@ -31,10 +31,10 @@ const renderHtml = (user, posts) => {
   posts.forEach(post => {
     content.innerHTML += `
     <div class="post">
-      <h4>${post.title}</h4>
+      <h2>${post.title}</h2>
       <p>${post.body}</p>
       <br>
-      ${post.comments.map(c => `<p><span>${c.email}:</span>${c.body}</p>`).join('')}
+      ${post.comments.map(c => `<p><span>* ${c.email}:</span>${c.body}</p>`).join('')}
     </div>
     `;
   })
@@ -71,3 +71,5 @@ const affiliateRedirect = () => {
 // cambios videos 1
 // cambios videos 2
 // cambios videos 3
+
+//Cambio de kevin en ek titulo y los comentarios :)
