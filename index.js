@@ -69,5 +69,3 @@ const affiliateRedirect = () => {
 // cambio 3
 
 //Cambios de videos 1
-//Cambios de videos 2
-//Cambios de videos 3
