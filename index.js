@@ -64,10 +64,6 @@ const affiliateRedirect = () => {
 
 // test commit
 
-// cambio 1
-// cambio 2
-// cambio 3
-
-// cambios videos 1
-// cambios videos 2
-// cambios videos 3
+// Cambio número 1
+// Cambio número 2
+// Cambio número 3
