@@ -72,4 +72,4 @@ const affiliateRedirect = () => {
 // cambios videos 2
 // cambios videos 3
 
-//おはよう blablabla
+//おはよう ございます
