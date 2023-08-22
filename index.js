@@ -1,3 +1,4 @@
+//link de la API
 const url = "https://jsonplaceholder.typicode.com";
 
 const getUser = async (id) => {
@@ -24,6 +25,7 @@ const getCommentsForEachPost = async (posts) => {
   postComments.forEach((comments, i) => posts[i].comments = comments);
 }
 
+//Generar comentarios
 const renderHtml = (user, posts) => {
   const content = document.getElementById('content');
   content.innerHTML += `<h3>Posts del usuario ${user.email}</h3>`;
