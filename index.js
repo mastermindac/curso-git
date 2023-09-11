@@ -62,7 +62,7 @@ const affiliateRedirect = () => {
   // resolver el bug
 }
 
-// test commit
+// video pull request
 
 // cambio 1
 // cambio 2
