@@ -64,10 +64,6 @@ const affiliateRedirect = () => {
 
 // video pull request
 
-// cambio 1
-// cambio 2
-// cambio 3
-
-// cambios videos 1
-// cambios videos 2
-// cambios videos 3
+// Add change
+// Esto me parece fabuloso
+// Estoy aprendiendo un monton
