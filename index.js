@@ -61,10 +61,14 @@ const loadAdds = () => {
 const affiliateRedirect = () => {
   // resolver el bug
 }
+const videoPullRequest = () => {
+  console.log('Video pull request')
+}
 
 // test commit
 
 // cambio 1
+//Video Pull Request
 // cambio 2
 // cambio 3
 
