@@ -15,19 +15,19 @@ const getPosts = async (user) => {
 }
 
 const getCommentsForEachPost = async (posts) => {
-  const res = await Promise.all(posts.map(post => 
+  const res = await Promise.all(posts.map(post =>
     fetch(`${url}/comments?postId=${post.id}&_limit=4`)
   ));
-  console.log(res); 
+  console.log(res);
   const postComments = await Promise.all(res.map(r => r.json()));
-  
+
   postComments.forEach((comments, i) => posts[i].comments = comments);
 }
 
 const renderHtml = (user, posts) => {
   const content = document.getElementById('content');
   content.innerHTML += `<h3>Posts del usuario ${user.email}</h3>`;
-  
+
   posts.forEach(post => {
     content.innerHTML += `
     <div class="post">
@@ -62,12 +62,4 @@ const affiliateRedirect = () => {
   // resolver el bug
 }
 
-// test commit
-
-// cambio 1
-// cambio 2
-// cambio 3
-
-// cambios videos 1
-// cambios videos 2
-// cambios videos 3
+// video pull request
