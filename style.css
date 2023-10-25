@@ -11,6 +11,16 @@ h1 {
     padding-top: 8px;
 }
 
+a {
+    transition: all 200ms linear;
+    padding-right: 10px;
+}
+
+a:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 150ms linear;
+}
+
 .bar {
     background-color: #464b55;
     padding: 10px;
@@ -41,3 +51,5 @@ h1 {
 .post span {
     color: #61afef;
 }
+
+/*cambio 1*/
