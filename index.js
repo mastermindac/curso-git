@@ -14,6 +14,8 @@ const getPosts = async (user) => {
   return posts;
 }
 
+//CAMBIOS TOCHOS 
+
 const getCommentsForEachPost = async (posts) => {
   const res = await Promise.all(posts.map(post => 
     fetch(`${url}/comments?postId=${post.id}&_limit=4`)
