@@ -67,7 +67,9 @@ const affiliateRedirect = () => {
 // cambio 1
 // cambio 2
 // cambio 3
+// cambio 4: Ni tú te lo crees, otro cambio expectacular.
 
 // cambios videos 1
 // cambios videos 2
 // cambios videos 3
+// cambios videos 4: Lo he vuelto a hacer, el mejor cambio del mundo.
