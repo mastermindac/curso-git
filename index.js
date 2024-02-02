@@ -15,6 +15,7 @@ const getPosts = async (user) => {
 }
 
 //CAMBIOS TOCHOS 
+//ESTABA MAL, AHORA ESTA BIEN, AÑADIDO CAMBIOS TOCHOS
 
 const getCommentsForEachPost = async (posts) => {
   const res = await Promise.all(posts.map(post => 
