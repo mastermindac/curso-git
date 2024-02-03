@@ -60,6 +60,7 @@ const loadAdds = () => {
 
 const affiliateRedirect = () => {
   // resolver el bug
+  console.log('Redirecting to affiliate');
 }
 
 // test commit
@@ -67,6 +68,8 @@ const affiliateRedirect = () => {
 // cambio 1
 // cambio 2
 // cambio 3
+
+//hello
 
 // cambios videos 1
 // cambios videos 2
