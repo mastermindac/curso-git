@@ -41,3 +41,13 @@ h1 {
 .post span {
     color: #61afef;
 }
+
+.hello{
+    color: aqua;
+    font-size: 20px;
+}
+
+.me{
+    font-size: 30px;
+    color: #61afef;
+}
