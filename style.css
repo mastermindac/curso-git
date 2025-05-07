@@ -15,6 +15,7 @@ h1 {
     background-color: #464b55;
     padding: 10px;
     display: flex;
+    justify-content: center;
 }
 
 .logo {
@@ -23,8 +24,13 @@ h1 {
 }
 
 .container {
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 0 60px 0 60px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .post {
