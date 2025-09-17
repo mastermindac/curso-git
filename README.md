@@ -1,5 +1,5 @@
 # Curso Git
 
-Curso Git Mastermind
+Curso Git Mastermind NoOficial
 
 Version 1
