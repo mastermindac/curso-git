@@ -23,7 +23,7 @@ const getCommentsForEachPost = async (posts) => {
   
   postComments.forEach((comments, i) => posts[i].comments = comments);
 }
-
+// Codigo de posts de User (video pull request)
 const renderHtml = (user, posts) => {
   const content = document.getElementById('content');
   content.innerHTML += `<h3>Posts del usuario ${user.email}</h3>`;
